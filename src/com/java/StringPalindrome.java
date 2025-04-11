@@ -13,8 +13,9 @@ public class StringPalindrome {
 
             String reversed = "";
 
+            int n = str.length() - 1;
             
-            for (int i = str.length() - 1; i >= 0; i--) {
+            for (int i = n; i >= 0; i--) {
                 reversed += str.charAt(i);
             }
 
