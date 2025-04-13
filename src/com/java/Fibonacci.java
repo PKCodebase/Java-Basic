@@ -9,11 +9,13 @@ public class Fibonacci {
         int a = 0;
         int b = 1;
         int c = 0 ;
-        for(int i =1;i<number;i++ ){
+        for(int i =3;i<=number;i++ ){
              c= a+b;
-             b=c;
+             System.out.println(c);
+
              a=b;
+            b=c;
         }
-        System.out.println(c);
+
     }
 }
