@@ -2,8 +2,6 @@ package com.java;
 
 import java.util.Scanner;
 
-
-
 public class StringPalindrome {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
@@ -24,7 +22,6 @@ public class StringPalindrome {
             } else {
                 System.out.println("The string is not a palindrome.");
             }
-
             scanner.close();
         }
 
