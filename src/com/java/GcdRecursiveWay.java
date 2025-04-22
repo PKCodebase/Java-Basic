@@ -1,13 +1,13 @@
 package com.java;
 
 public class GcdRecursiveWay {
-    public static void main(String[]args){
-        int a = 10; int b =20;
-        while(b!=0){
-            int temp = b;
-            b = a%b;
-            a= temp;
-        }
-        System.out.println(a);
+    public static int gcd(int a, int b) {
+        if (b == 0)
+            return a;
+        return gcd(b, a % b);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("GCD is: " + gcd(36, 60));  // Output: 12
     }
 }
