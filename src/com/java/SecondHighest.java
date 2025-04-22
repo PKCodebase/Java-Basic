@@ -7,8 +7,7 @@ public class SecondHighest {
         int max = Integer.MIN_VALUE;
         int smax = Integer.MIN_VALUE;
 
-        for (
-                int num : arr) {
+        for (int num : arr) {
             if (num > max) {
                 smax = max;
                 max = num;
