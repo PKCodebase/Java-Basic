@@ -9,7 +9,10 @@ public class Fibonacci {
         int a = 0;
         int b = 1;
         int c = 0 ;
-        for(int i =3;i<=number;i++ ){
+        System.out.println(a);
+        System.out.println(b);
+
+        for(int i =2;i<number;i++ ){
              c= a+b;
              System.out.println(c);
 
